@@ -54,3 +54,34 @@ python3 make_sciver_examples.py                # lightweight, references images/
 
 > The ~1.6 GB dataset (`images/`, `papers/`, `*.json`) is intentionally **not**
 > committed — fetch it from Hugging Face at the link above.
+
+## Data source, license & citation
+
+All examples shown here come from the **SciVer** dataset by Wang et al. — this
+repo is just a viewer and claims no ownership of the data.
+
+- **Dataset:** [chengyewang/SciVer on Hugging Face](https://huggingface.co/datasets/chengyewang/SciVer)
+- **Paper:** [SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification](https://aclanthology.org/2025.acl-long.420/) (ACL 2025) · [arXiv:2506.15569](https://arxiv.org/abs/2506.15569)
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to share and adapt **with attribution**.
+
+If you use the data, please cite the original authors:
+
+```bibtex
+@inproceedings{wang-etal-2025-sciver,
+    title = "{S}ci{V}er: Evaluating Foundation Models for Multimodal Scientific Claim Verification",
+    author = "Wang, Chengye  and
+      Shen, Yifei  and
+      Kuang, Zexi  and
+      Cohan, Arman  and
+      Zhao, Yilun",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.420/",
+    doi = "10.18653/v1/2025.acl-long.420",
+    pages = "8562--8579",
+    ISBN = "979-8-89176-251-0"
+}
+```
