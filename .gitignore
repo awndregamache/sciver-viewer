@@ -1,0 +1,9 @@
+# SciVer dataset (~1.6 GB) — fetch from Hugging Face, never commit
+images/
+papers/
+testset.json
+valset.json
+README.assets/
+*.parquet
+# generated lightweight variant (the committed sciver_examples.html is standalone)
+sciver_examples_standalone.html
