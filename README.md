@@ -1,5 +1,8 @@
 # SciVer — Example Viewer
 
+**▶ Live viewer: https://awndregamache.github.io/sciver-viewer/sciver_examples.html**
+(opens in any browser — no clone or download needed)
+
 A small, self-contained HTML page that showcases examples from the
 [SciVer benchmark](https://huggingface.co/datasets/chengyewang/SciVer)
 ([paper, ACL 2025](https://arxiv.org/abs/2506.15569)) — multimodal scientific
